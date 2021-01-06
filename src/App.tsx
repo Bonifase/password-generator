@@ -30,7 +30,11 @@ function App() {
             <div className="card shadow-sm p-3 mb-5 bg-white rounded generator">
             <div className="card-body">
                 <h2 className="card-title">Generate a Password</h2>
-                <input className="text-area" type="number" value={passwordLength} onChange={onChange} id="password" placeholder="Your Password length" />
+                <div className="form-outline">
+                    <input type="number" id="typeNumber" value={passwordLength} onChange={onChange} className="form-control border text-area" />
+                    {/* <label className="form-label" htmlFor="typeNumber">Password Length</label> */}
+                    <div className="form-notch-trailing"></div>
+                </div>
                 <button type="button" onClick={getPassword} className="btn btn-success generate" id="generate">Generate Password</button>
                 {password.length > 0 ? 
                 <div className="card-body">

@@ -27,7 +27,7 @@
     width: 100%; 
     text-align: center; 
     resize: none;
-    margin:30px auto; 
+    margin: 10px auto; 
     padding: 10px auto; 
 }
 .generate, .clipboard{
