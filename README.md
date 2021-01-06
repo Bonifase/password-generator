@@ -1,5 +1,6 @@
 # Password Generator
-<img src="src/image.png" alt="image" style="width:800px;height:300px;"/>
+<img src="src/images/image1.png" alt="image" style="width:600px;height:200px;"/>
+<img src="src/images/image2.png" alt="image" style="width:600px;height:200px;"/>
 
 ## Available Scripts
 In the project directory, you can run:
